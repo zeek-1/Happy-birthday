@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top, #ffffff 10%, #fcccfb 100%);
+    height: 100vh;
+}
+@font-face {
+    font-family: Cursive1;
+    src: url(../fonts/3d_unicode.ttf);
+}
+@font-face {
+    font-family: Straight_let;
+    src: url(../fonts/bpg_glaho_sylfaen.ttf)
+}
+header p{
+    font-size: 200px;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    color: white;
+}
+main section{
+    height: 200px;
+    width: 200px;
+    color: rgb(188, 129, 181);
+    margin: 150px auto;
+    font-family: Cursive1;
+    text-align: center;
+    font-weight: bolder;
+    background-image: url(../Gifs/love-brownbear.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: -7.5px -20px;
+    position: relative;
+}
+section button{
+    height: 20px;
+    width: 130px;
+    background-color: white;
+    margin: 117px auto;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    font-family: Straight_let;
+    color: pink;
+    cursor: pointer;
+}
+section button:hover{
+    background-color: rgb(255, 179, 191);
+    color: white;
+    transition: ease 0.3s;
+    font-weight: bolder;
+}
+footer p{
+    font-size: 200px;
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    color: #fcccfb;
+}
+
+
+/* Web 2 start */ 
+header button{
+    height: 20px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    font-family: Straight_let;
+    color: pink;
+    cursor: pointer;
+    margin: 20px;
+}
+header button:hover{
+    background-color: rgb(255, 179, 191);
+    color: white;
+    transition: ease 0.3s;
+    font-weight: bolder;
+}
+article{
+    height: 220px;
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Cursive1;
+    color: rgb(255, 125, 147);
+    font-size: 30px;
+}
+body img{
+    height: 190px;
+    position: absolute;
+    bottom: 0px;
+}
+.Img2{
+    right: 0;
+}
